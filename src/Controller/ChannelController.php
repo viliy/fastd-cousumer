@@ -11,7 +11,7 @@ class ChannelController
 
     public function index()
     {
-        $response = signaller()->request('service-channel', 'promotions.index');
+        $response = signaller()->request('demo', 'demo');
 
         return $response;
     }
