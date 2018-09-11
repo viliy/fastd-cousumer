@@ -11,7 +11,7 @@ return [
     /**
      * The application name.
      */
-    'name' => 'fastd-register',
+    'name' => 'fastd-consumer',
 
     /*
      * The application timezone.
