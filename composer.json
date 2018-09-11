@@ -1,0 +1,36 @@
+{
+    "name": "fastd/dobee",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "keywords": [
+        "FastD"
+    ],
+    "authors": [
+        {
+            "name": "JanHuang",
+            "email": "bboyjanhuang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "fastd/fastd": "^3.2",
+        "predis/predis": "^1.1",
+        "runner/validator": "^0.2.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0",
+        "liron-li/php-zookeeper-ide-helper": "^0.1.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
