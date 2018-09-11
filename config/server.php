@@ -8,7 +8,7 @@
  */
 
 return [
-    'host' =>  '127.0.0.1:9527',
+    'host' =>  '127.0.0.1:9530',
     'class' => \FastD\Servitization\Server\HTTPServer::class,
     'options' => [
         'pid_file' => '/tmp/fastd/' . app()->getName() . '.pid',

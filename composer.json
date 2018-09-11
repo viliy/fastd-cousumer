@@ -1,5 +1,5 @@
 {
-    "name": "fastd/dobee",
+    "name": "fastd/consumer",
     "type": "project",
     "license": "MIT",
     "minimum-stability": "stable",
@@ -16,7 +16,7 @@
         "php": ">=7.0",
         "fastd/fastd": "^3.2",
         "predis/predis": "^1.1",
-        "runner/validator": "^0.2.8"
+        "sdk/signaller": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.0",
